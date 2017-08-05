@@ -527,27 +527,28 @@
                             Name
                         </td>
                         <td>
-                            <input type="text" id="txtName" required>
+                            <input type="text" id="txtName" name="Name" required>
                         </td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td><input type="text" id="txtEmail" required></td>
+                        <td><input type="text" id="txtEmail" name="Email" required></td>
                     </tr>
                     <tr>
                         <td>Number</td>
-                        <td><input type="number" id="txtNumber" required></td>
+                        <td><input type="number" id="txtNumber" name="Contact Number" required></td>
                     </tr>
                     <tr>
                         <td>Message</td>
-                        <td><textarea id="txtMessage" cols="27" rows="10" required></textarea>
-                        <input type="text" name="_gotcha" style="display:none" />
+                        <td><textarea id="txtMessage" cols="27" rows="10" name="Message" required></textarea>
+                            <input type="text" name="_gotcha" style="display:none" />
                         </td>
                     </tr>
                     <tr>
                         <td></td>
                         <td>
-                            <input type="submit" value="Send">&emsp;<input type="reset" value="Clear"></td>
+                        <input type="submit" value="Send">&emsp;<input type="reset" value="Clear">
+                        </td>
                     </tr>
                 </table>
             </form>
