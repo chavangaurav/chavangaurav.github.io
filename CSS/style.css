@@ -474,6 +474,18 @@ body {
     list-style-type: none;
     margin-left: 15px;
     padding: 0px;
+    line-height: 40px;
+}
+
+.links a,
+.links_small a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links a:hover,
+.links_small a:hover {
+    text-decoration: underline;
 }
 
 .links_small {
@@ -637,6 +649,9 @@ body {
     }
     .links_small {
         display: block;
+    }
+    .links_small li{
+        line-height: 30px;
     }
     .footer_icons {
         padding: 0px 20px;
